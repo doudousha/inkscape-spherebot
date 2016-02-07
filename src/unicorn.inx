@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <inkscape-extension xmlns="http://www.inkscape.org/namespace/inkscape/extension">
-  <_name>MakerBot Unicorn G-Code Output</_name>
-  <id>com.makerbot.unicorn.gcode</id>
+  <_name>Spherebot G-Code Output</_name>
+  <id>spherebot.gcode</id>
   <dependency type="extension">org.inkscape.output.svg.inkscape</dependency>
   <dependency type="executable" location="extensions">unicorn.py</dependency>
   <dependency type="executable" location="extensions">inkex.py</dependency>
@@ -44,20 +44,20 @@ Note: Double-check the orientation of your axes when changing these values!</_pa
       <param name="pause-on-layer-change" type="boolean" _gui-text="Pause on layer changes?">false</param>
     </page>
     <page name="help" _gui-text="Help">
-      <_param name="ext_help" type="description" xml:space="preserve">MakerBot Unicorn G-Code Output.
+      <_param name="ext_help" type="description" xml:space="preserve">SphereBot G-Code Output.
 
 - All text must be converted to paths.
 - Curves are approximated with line segments.
 
-More Info: http://github.com/martymcguire/inkscape-unicorn/</_param>
+More Info: http://github.com/firebovine/inkscape-spherebot</_param>
     </page>
   </param>
 
   <output>
     <extension>.gcode</extension>
     <mimetype>application/x-gcode</mimetype>
-    <_filetypename>MakerBot Unicorn G-Code (*.gcode)</_filetypename>
-    <_filetypetooltip>Toolpath for the MakerBot Unicorn Pen Plotter</_filetypetooltip>
+    <_filetypename>SphereBot G-Code (*.gcode)</_filetypename>
+    <_filetypetooltip>Toolpath for the SphereBot Pen Plotter</_filetypetooltip>
     <dataloss>true</dataloss>
   </output>
   <script>

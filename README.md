@@ -16,7 +16,6 @@ G-Code files suitable for plotting with the SphereBot: http://www.thingiverse.co
 I used one of the 3d printed variants with minor modifications, but the electronics I used are from the above thingiverse link.
 
 Original Author: [Marty McGuire](http://github.com/martymcguire)
-
 Original Author's Website: [http://github.com/martymcguire/inkscape-unicorn](http://github.com/martymcguire/inkscape-unicorn)
 
 Credits
@@ -49,7 +48,7 @@ Usage
 	* Choose **Path | Object to Path**.
 * Save as G-Code:
 	* **File | Save a Copy**.
-	* Select **MakerBot Unicorn G-Code (\*.gcode)**.
+	* Select **SphereBot G-Code (\*.gcode)**.
 	* Save your file.
 * Preview
 	* For OS X, [Pleasant3D](http://www.pleasantsoftware.com/developer/pleasant3d/index.shtml) is great for this.
